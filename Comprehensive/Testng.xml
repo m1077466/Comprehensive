@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+     <listener class-name="TestsRun.zListeners"/>
+     <listener class-name="Resources.ExtentReporterNG"/>
+     
+</listeners>
+
+  <test  name="About savaari.com">
+    <classes>
+      <class name="TestsRun.aboutUs"/> 
+    </classes>
+  </test> 
+  
+  <test  name="Book for airport">
+    <classes>
+      <class name="TestsRun.airport"/> 
+    </classes>
+  </test> 
+  
+  <test  name="Featured in">
+    <classes>
+      <class name="TestsRun.article"/> 
+    </classes>
+  </test> 
+  
+  <test  name="Social Media Handle">
+    <classes>
+      <class name="TestsRun.blogIcon"/> 
+    </classes>
+  </test> 
+  
+  <test  name="Rent car in particular city">
+    <classes>
+      <class name="TestsRun.cityRental"/> 
+    </classes>
+  </test> 
+  
+  <test  name="Contact savaari.com">
+    <classes>
+      <class name="TestsRun.contactUs"/> 
+    </classes>
+  </test> 
+  
+  <test  name="Book for round trip">
+    <classes>
+      <class name="TestsRun.localTab"/> 
+    </classes>
+  </test> 
+  
+  <test  name="Book for one way">
+    <classes>
+      <class name="TestsRun.oneWay"/> 
+    </classes>
+  </test> 
+  
+  <test  name="Book for out station">
+    <classes>
+      <class name="TestsRun.outStation"/> 
+    </classes>
+  </test> 
+  
+  <test  name="Sign in with wrong details">
+    <classes>
+      <class name="TestsRun.signIn"/> 
+    </classes>
+  </test> 
+  
+  
+</suite> 
